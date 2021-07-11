@@ -132,10 +132,12 @@ footer p {
 
 /* -------  Media Query ------- */
 @media all and (min-width: 480px) {
-  
-  main img {
-    width: 50%;
+  /* -------  Groups  -------*/
+  .group {
+    align-items: center;
+    flex-direction: row;
   }
+
   /* -------  Navigation ------- */
   header {
     padding: 0;
@@ -148,10 +150,8 @@ footer p {
   }
 
   .logo {
-    margin: 12px 0 12px 20px;
+    margin: 10px 0 10px 15px;
     font-size: 60px;
   }
-  
-/* -------  Join Form ------- */
 
 }
